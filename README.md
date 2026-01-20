@@ -1,2 +1,2 @@
 # YOPD-Econ-Research
-Using econometrics and system informatics to deconstruct the structural inequalities faced by Young-Onset Parkinson's patients in the global labor market.
+In a world of noise, math provides the only certainty. I use GitHub to track the entropy reduction of my own understanding of YOPD.
