@@ -1,3 +1,10 @@
+## 🛑 Two-way Table Blind Spot: Failed to distinguish between "Global Total" and "Conditional Group Total."
+* **Strategy**: Circle the denominator (the "of" part of the sentence) before looking at the numerator.
+
+
+
+
+
 # 🧠 Brain-Overheat Log (Difficulties & Breakthroughs)
 **Project:** Architectural Logic to Quantitative PhD Pipeline
 **Status:** High-Intensity Mental Restructuring
