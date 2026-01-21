@@ -11,7 +11,7 @@ In a world of noise, math provides the only certainty. I use GitHub to track the
 ├── /Logic-Models/          # [Architecture] Theoretical frameworks & causal logic
 │   ├── Case-Comparison/    # "Acute Injury (Fracture) vs. YOPD" - Comparative Logic
 │   └── Theoretical-Frames/ # Stigma, Human Capital Depreciation, and Policy impact
-├── /Python-Econometrics/   # [Implementation] Data science and empirical modeling
+├── /Python/Coding-Econometrics/   # [Implementation] Data science and empirical modeling
 │   ├── Data-Cleaning/      # Scripts for processing complex health & labor datasets
 │   ├── Regressions/        # Econometric scripts (OLS, DiD, RDD)
 │   └── Visualizations/     # Causal inference plots and uncertainty curves
