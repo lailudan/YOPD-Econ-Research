@@ -4,7 +4,7 @@
 ## 🛑 Two-way Table Blind Spot: Failed to distinguish between "Global Total" and "Conditional Group Total."
 * **Strategy**: Circle the denominator (the "of" part of the sentence) before looking at the numerator.
 
-  ### 🛑 1/21 Trap: The "Proportion vs. Absolute Count" Illusion
+### 🛑 1/21 Trap: The "Proportion vs. Absolute Count" Illusion
 > **Lesson**: A higher percentage does NOT mean a higher number of people.
 
 * **The Mistake**: Selecting an answer about "more people" (Absolute Count) based solely on a "Relative Frequency Table" (Proportion).
