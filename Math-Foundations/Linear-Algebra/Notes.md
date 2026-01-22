@@ -1,8 +1,7 @@
-# 📐 Linear Algebra: Deep-Dive Log
+# 📐 Linear Algebra: Deep-Dive Log (Updated 1.22.2026)
 
 **Project:** Linear Algebra Foundation for GSICS-Econometrics
 **Focus:** Linear Combinations and The Concept of "Span"
-**Date:** Jan 22, 2026 (Morning Session)
 **Framework:** Architectural Structure → Quantitative Modeling
 
 ---
@@ -46,13 +45,6 @@
 | `feat: linear-comb` | Mastered combining vectors using scalars | ✅ Done |
 | `feat: span-visual` | Visualized 1D vs 2D Span in coordinate planes | ✅ Done |
 | `fix: redundancy` | Identified linearly dependent vectors in practice | ✅ Done |
-
----
-
-## 🚀 Upcoming Focus: Linear Transformations (线性变换)
-* [ ] 理解矩阵如何作为一种“函数”来移动整个 Span。
-* [ ] 探索空间压缩：当一个平面被压缩成一条线时发生了什么（Determinant = 0）。
-* [ ] 准备 5 月 11 日 GRE 数学部分的向量坐标系题目。
 
 ---
 > **"The 1.5 hours of daily grinding is the sound of architectural intuition being re-coded into an econometric weapon."**
