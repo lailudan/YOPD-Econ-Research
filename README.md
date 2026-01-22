@@ -20,4 +20,3 @@ In a world of noise, math provides the only certainty. I use GitHub to track the
     └── Disability-Econ/    # Foundational papers on Disability Economics
 
 Notion Dashboard: https://www.notion.so/Public-Bio-Research-Interests-2ef629379e3780b28d08e752b2cdc114
-[Notion Dashboard](https://www.notion.so/Public-Bio-Research-Interests-2ef629379e3780b28d08e752b2cdc114)
