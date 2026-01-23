@@ -1,3 +1,30 @@
+## Updated 1/23 Statistics: The Row vs. Column Geometry
+> **Core Struggle**: Feeling that Statistics is harder than Calculus because of semantic ambiguity.
+
+#### 1. The "Floor Plan" Mental Model
+To stop the confusion between Rows and Columns, use the **Architectural Analogy**:
+* **Rows (Horizontal) = Rooms**: A specific category (e.g., Acoustic Guitars). When looking across a row, you are analyzing the **internal makeup** of that room.
+* **Columns (Vertical) = Corridors**: A specific service or trait (e.g., Neck Repair). When looking down a column, you are seeing **who from which room** entered that corridor.
+
+
+
+#### 2. The Golden Rule of Denominators
+The most common mistake is picking the wrong "100%".
+* **"Percentage of [A] that are [B]"**: The word after **"of"** is your denominator. Focus ONLY on that Row or Column total.
+* **"Percentage of ALL..."**: The denominator is the Grand Total (bottom-right corner).
+
+#### 3. Precision Warning (The Hundredth Trap)
+* **Rounding**: "To the nearest hundredth of a percent" means calculating to **four decimal places** (0.XXXX) before converting to a percentage (XX.XX%).
+* **Lesson**: In quantitative research, small rounding errors lead to failed structural integrity in the data model.
+
+#### 4. Association vs. Quantity
+* **Observation**: You don't need absolute counts to find an association.
+* **Logic**: If the percentage changes significantly when moving from one group to another (e.g., Minimal vs. Extreme computer users), an **Association** exists.
+* **Warning**: A higher percentage does NOT guarantee a higher number of people unless the group sizes are known.
+
+
+
+
 ## Updated 1.21.2026
 
 
