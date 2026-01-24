@@ -1,4 +1,4 @@
-# Updated:** Jan 24, 2026 
+# Updated: Jan 24, 2026 
 ## 🔍 Deep Dive: Unbounded vs. DNE
 - **DNE (General)**: The total failure of convergence. Left neighbor $\neq$ Right neighbor.
 - **Unbounded ($\infty$)**: A "disciplined" failure. Neighbors agree to explode together. 
