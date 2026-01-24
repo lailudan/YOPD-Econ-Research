@@ -2,7 +2,23 @@
 
 # Marginal and conditional distributions
 
+#### 1. Marginal Distribution: The "Outer Perimeter" (边缘分布)
+* **Definition**: The distribution of a single variable, ignoring all other categories.
+* **Mental Model**: The "Elevation View" of a building. You don't see the internal partitions; you only see the total silhouette.
+* **Mathematical Key**: 
+    * **Denominator**: Always the **Grand Total** (the bottom-right corner).
+    * **Focus**: What is the overall percentage of "Neck Repairs" in the entire dataset?
 
+#### 2. Conditional Distribution: The "Internal Layout" (条件分布)
+* **Definition**: The distribution of one variable *within* a specific subset of another variable.
+* **Mental Model**: Opening a specific "Room" door. Your entire universe is now limited to that room's inhabitants.
+* **Mathematical Key**:
+    * **Denominator**: The **Row Total** or **Column Total** of the specific category you are "Given".
+    * **Trigger Words**: Look for "Of those...", "If...", or "Given that...".
+
+#### 3. Strategic Summary for PhD Research
+* **Marginal**: Tells me the **Scale** of a problem (e.g., Total % of YOPD patients in Japan).
+* **Conditional**: Tells me the **Risk Factors** or **Associations** (e.g., % of YOPD patients who are also architects).
 
 
 
