@@ -12,6 +12,46 @@ $$
   - 从几何看：变换顺序的倒置会彻底改变基向量的最终坐标。
 - **The Grouping Identity**: 
   - $A(BC)$ vs $(AB)C$: 无论公式多复杂，只要 $A, B, C$ 的相对位置不动，它们对向量 $x$ 的联合作用力（因果链条）就是恒定的。
+ 
+## 🔢 矩阵乘积核心公式 (Matrix Multiplication Formula)
+
+### 1. 标准代数展开 (2x2 示例)
+对于两个 $2 \times 2$ 矩阵的乘积，计算遵循“左行乘右列”的原则：
+
+$$
+\begin{bmatrix} a & b \\ c & d \end{bmatrix} \begin{bmatrix} e & f \\ g & h \end{bmatrix} = \begin{bmatrix} (ae + bg) & (af + bh) \\ (ce + dg) & (cf + dh) \end{bmatrix}
+$$
+
+---
+
+### 2. 通用求和定义 (General Definition)
+设矩阵 $A$ 为 $m \times n$，矩阵 $B$ 为 $n \times p$，则其乘积 $C = AB$ 是一个 $m \times p$ 矩阵，其中每个元素 $C_{ij}$ 的计算公式为：
+
+$$
+C_{ij} = \sum_{k=1}^n A_{ik} B_{kj}
+$$
+
+> **TA 备课笔记：** > - **$i$**：代表结果矩阵的第 $i$ 行（由左矩阵 $A$ 决定）。
+> - **$j$**：代表结果矩阵的第 $j$ 列（由右矩阵 $B$ 决定）。
+> - **$k$**：是中间的“桥梁”维度，必须相等（左列数 = 右行数）。
+
+---
+
+### 3. 几何直觉复盘 (Geometric Intuition)
+矩阵乘法 $AB$ 的本质是**复合变换 (Composition of Transformations)**。
+
+- **右矩阵 $B$**：描述了第一步变换，即基向量 $\hat{i}$ 和 $\hat{j}$ 落地后的新坐标。
+- **左矩阵 $A$**：描述了第二步变换，即在 $B$ 变换的基础上再次进行空间扭曲。
+- **计算结果**：直接给出了从原始空间到最终空间的“一步到位”变换矩阵。
+
+---
+
+## 🛑 逻辑避坑指南 (For Students)
+1. **不可交换性 ($AB \neq BA$)**：
+   - 公式证明：交换后，参与乘法的元素配对完全改变（例如 $ae+bg$ 变成了 $ea+fc$）。
+   - 几何证明：先穿鞋再穿袜 $\neq$ 先穿袜再穿鞋。
+2. **结合律 ($A(BC) = (AB)C$)**：
+   - 只要字母排队顺序不变（$A$ 在左，$B$ 在中，$C$ 在右），无论括号在哪，动作链条的先后物理顺序始终一致。
 
 # 📐 Linear Algebra: Matrix Multiplication Mastery
 **Key Concept**: Associativity vs. Commutativity
