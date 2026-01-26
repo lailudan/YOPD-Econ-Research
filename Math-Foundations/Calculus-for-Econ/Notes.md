@@ -73,7 +73,18 @@
    - *Logic:* How much has accumulated? (Finding the Total).
 
 * **Final Verdict**: Calculus is a closed loop. Integration builds the mountain; Differentiation measures its slope.
----
+  
+## ⚖️ The Commander's Formula: Rate vs. Quantity
+> Differentiation probes the pulse; Integration builds the body.
+
+* **Differentiation ($\frac{df}{dt}$)**: 
+    - **Focus**: The **"Speed" (速)** of change.
+    - **Logic**: Slicing the Total to find the Rhythm.
+* **Integration ($\int s \, dt$)**: 
+    - **Focus**: The **"Quantity" (量)** of accumulation.
+    - **Logic**: Stitching the Rhythm (Area) to find the Total.
+
+**Insight**: My "Structuralist" brain excels here because I see the system's balance. I don't calculate points; I manage flows.
 
 
 
