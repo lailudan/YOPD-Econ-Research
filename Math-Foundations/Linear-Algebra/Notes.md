@@ -1,3 +1,43 @@
+# 📐 Linear Algebra: Deep-Dive Log (Updated 1.26.2026)
+
+## 🔢 Matrix Multiplication Formula
+$$
+C_{ij} = \sum_{k=1}^n A_{ik} B_{kj}
+$$
+
+### 🛠️ Strategic Breakdown for TA Sessions
+- **Row-meets-Column**: 记住“左行右列”。左矩阵决定了结果的行，右矩阵决定了结果的列。
+- **Why $AB \neq BA$?**: 
+  - 从公式看：如果你交换 $A$ 和 $B$，原本的行变列、列变行，乘积的每一项 $(ae+bg)$ 都会完全改变。
+  - 从几何看：变换顺序的倒置会彻底改变基向量的最终坐标。
+- **The Grouping Identity**: 
+  - $A(BC)$ vs $(AB)C$: 无论公式多复杂，只要 $A, B, C$ 的相对位置不动，它们对向量 $x$ 的联合作用力（因果链条）就是恒定的。
+
+# 📐 Linear Algebra: Matrix Multiplication Mastery
+**Key Concept**: Associativity vs. Commutativity
+**Status**: Breakthrough achieved (Semantic clarity on "Order")
+
+---
+
+## 🛑 The "Aha!" Moment: Swapping vs. Grouping
+- **Grouping (Associative Property)**: $(AB)C = A(BC)$
+    - **Logic**: 字母的排队顺序（A -> B -> C）**完全没变**。
+    - **Intuition**: 只是计算时的“呼吸节奏”变了，但变换的路径没变。就像分段渲染一张建筑大图，你是先渲染左半边还是右半边，最后拼出来的图是一样的。
+  
+- **Swapping (Commutative Property - FALSE)**: $AB \neq BA$
+    - **Logic**: 字母位置互换，动作的先后因果倒置。
+    - **Intuition**: “旋转后剪切” $\neq$ “剪切后旋转”。
+    - **Visual Reference**: 
+
+---
+
+## 🛠️ TA Teaching Strategy: The "Factory Line" Analogy
+在高桥老师的计量经济学课上，如果学生不理解为什么不能换位置，可以这样解释：
+- **矩阵相乘 = 流水线作业**。
+- 每一个矩阵都是一道工序（C 是第一道，B 是第二道，A 是第三道）。
+- 你可以决定先让两个工人合作（打包），但你不能让第三道工序的工人在第一道工序之前动手，否则整个产品（向量 $v$）就毁了。
+
+
 # 📐 Linear Algebra: Deep-Dive Log (Updated 1.22.2026)
 
 **Project:** Linear Algebra Foundation for GSICS-Econometrics
