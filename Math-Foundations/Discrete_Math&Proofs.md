@@ -1,3 +1,18 @@
+### 🗓 1/27 Discrete Math: The Art of Contradiction
+> **Source**: MIT 6.042J Lec 2 by Tom Leighton.
+
+#### 1. Logic Strategy: Proof by Contradiction
+* **Method**: To prove $P$, assume $\neg P$ (Not $P$) and show it leads to a logical disaster.
+* **Famous Proof**: $\sqrt{2}$ is irrational. 
+    * If $\sqrt{2} = a/b$ (in lowest terms), then both $a$ and $b$ must be even.
+    * But if both are even, the fraction wasn't in lowest terms $\rightarrow$ **CONTRADICTION**.
+
+#### 2. Why it matters for HEOR/Economics
+* **Model Validation**: If assuming a policy has "zero effect" leads to predictions that contradict observed market reality, the policy MUST have an effect.
+
+
+
+
 ### 🗓 1/25 Mathematics for Computer Science & Linear Algebra
 > **Progress**: Started MIT 6.042J (Lec 1) and mastered the visual derivation of Linear Transformations.
 
