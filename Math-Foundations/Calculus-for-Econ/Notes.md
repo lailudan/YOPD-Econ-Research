@@ -38,10 +38,6 @@
 * **右极限：** 政策后市场的瞬间反应（跳到了 1）。
 * **结论：** 这种“不连续性”描述了系统在极端扰动下的瞬态行为，而不是错误。
 
----
-
-## 📈 GitHub Study Log 补充
-```markdown
 ### 🧠 The "Neighbor Consensus" Rule
 - **Single-Side**: Neighbors on ONE side have a clear destination $\to$ **Limit Exists**.
 - **Double-Side**: Neighbors from BOTH sides must meet at the same point $\to$ **Limit Exists**.
