@@ -5,7 +5,15 @@
 
 **Context:** 理解为什么在“跳跃点”，单侧极限可以存在而整体极限不存在。
 
----
+## 🕵️ The "Paparazzi" Rule of Limits
+> Limits are like paparazzi: they only care about who you're hanging out with (neighbors), not who you actually are (the point).
+
+- **Ignore the Point**: The actual value $f(c)$ (solid dot) is IRRELEVANT to the limit.
+- **Focus on the Trend**: Look at the "Super Neighbors" (infinitesimally close).
+- **Jump Discontinuity**: 
+    - Left neighbors say "We are going to 5".
+    - Right neighbors say "We are going to 1".
+    - Result: Individual side limits exist, but they don't agree.
 
 ## 1. 核心定义：单侧极限 (One-Sided Limits)
 > **Structural Insight:** 只要单方面有明确的目标，极限就是“存在的”。
