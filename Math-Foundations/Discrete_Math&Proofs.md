@@ -7,6 +7,8 @@
 * **The Magic**: The three corners of this center tile act as **"Artificial Statues"** for the other three quadrants.
 * **Result**: Now every quadrant has exactly one hole (either real or artificial). We can now tile the rest perfectly.
 
+* Cognitive Milestone: Spent 45 mins in "Productive Struggle." Independently derived the concept of "Artificial Statues" for recursive tiling. Realized that understanding the structural logic is 10x more valuable than merely following the video timeline.
+
 #### 2. Mathematical takeaway
 * **Induction isn't magic**: It's about finding a way to make the "next step" ($N+1$) look exactly like the "previous step" ($N$) by clever structuring.
 
