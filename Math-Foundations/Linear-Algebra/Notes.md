@@ -62,7 +62,22 @@ $$c_1V_1 + c_2V_2 + \dots + c_nV_n = \vec{0}$$
 > - 如果视觉上“重合”或“降维”了，代数上一定能写出 $c_1V_1 + c_2V_2 = 0$ 且 $c$ 不全为零的组合。
 > - 对学生说：如果你能一眼看出它们不共线，你其实已经心算了那个定理。
 
+### 🧪 Experiment: Forcing a non-zero $c$ on Independent Vectors
 
+**Hypothesis**: What if we force $c_3 = -1$ on a Linearly Independent set?
+
+- **Outcome**: The system breaks.
+- **Algebraic Signal**: 
+    - 会得到一个**矛盾方程**（如 $1=0$）。
+    - 或者计算结果显示，唯一能满足 $\sum c_i V_i = 0$ 的情况依然是**所有 $c$ 必须为 $0$**。
+- **Geometric Meaning**: 
+    - 独立向量就像是 $x, y, z$ 轴。
+    - 问：“我能不能用 $x$ 轴和 $y$ 轴凑出 $z$ 轴？” 
+    - 数学会回答你：“不可能，除非你根本不出门（系数全为 0）。”
+
+> **TA Note**: 
+> - **线性相关**：$c$ 有无穷多种非零选择。
+> - **线性无关**：$c$ 被锁死在全员为 $0$ 的孤岛上。
 
 
 
