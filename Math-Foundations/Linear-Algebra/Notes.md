@@ -89,7 +89,17 @@ $$c_1V_1 + c_2V_2 + \dots + c_nV_n = \vec{0}$$
     - Logic: 如果方程组对任意 $a, b, c$ 都有解，则 $Span(S) = \mathbb{R}^3$。
  <img width="1662" height="972" alt="052c2de4-b929-4af0-83fc-a9522cea87d4" src="https://github.com/user-attachments/assets/4b9115ed-b0bf-45b1-8314-cf427b9c4ddb" />
 
-  
+  ### 📐 The Ideal State: Orthogonality (90°)
+- **The "abc" in Perfection**: 
+  - $V_1 = [a, 0, 0]^T$
+  - $V_2 = [0, b, 0]^T$
+  - $V_3 = [0, 0, c]^T$
+- **Why it matters**: 
+  - 这是空间最“清爽”的表达方式。
+  - $a, b, c$ 互不干涉（点积为 0）。
+- **TA Note**: 
+  - 板书里的 $a, b, c$ 是“终点目标”。
+  - 90 度向量组是达到这个目标最快、最直接的路径。
 
 > **TA Insight**: 
 > 线性无关是“不打架”，张成空间是“够得着”。
