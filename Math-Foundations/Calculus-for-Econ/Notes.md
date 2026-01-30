@@ -23,7 +23,11 @@
 | **正弦 $\sin x$** | $\cos x$ | 循环美感：波的高度变化律是它的余弦。 |
 | **指数 $e^x$** | $e^x$ | **奇迹函数**：函数值恰好等于它自己的斜率。 |
 
-
+## 📏 Geometry Meets Calculus: The $2\pi$ Link
+- **Radius = 1**: On a unit circle, distance = angle (in radians).
+- **$360^\circ = 2\pi$**: The full journey around the circle.
+- **$\pi / 2 = 90^\circ$**: The moment the wave reaches its peak (or the slope hits zero).
+- **Conclusion**: We use radians because the math stays "pure"—the speed of the wave matches the geometry of the circle.
 
 ---
 
