@@ -95,12 +95,6 @@ The formula holds for $n+1$. By the principle of Strong Induction, the total sco
 * **教材坐标系：** 高斯 (Gauss) 的漏洞告诉我们，不要迷信“显而易见”。如果一个向量空间看上去是线性无关的，必须通过严谨的判定基准（如不变量）来验证。
 * **经济学博弈：** 在分析金融数据时，寻找那个“不变量”（如：零和博弈中的总额）。如果一个模型承诺的结果打破了不变量，则该模型必然存在欺骗。
 
----
-
-## 5. 待办事项 (To-Do)
-- [ ] 深入理解 [01:02:13] 积木游戏的代数化简过程。
-- [ ] 尝试用“不变量”解释向量空间中的**秩 (Rank)**。
-- [ ] 思考：如何向 Dylan 解释“有些事情逻辑上就是做不到的”？
 
 > **"If you can't prove $P$, try to prove something stronger."** > —— Tom Leighton, MIT 6.042J
 
