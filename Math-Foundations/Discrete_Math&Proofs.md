@@ -77,6 +77,60 @@
 
 > **"If you can't prove $P$, try to prove something stronger."** > —— Tom Leighton, MIT 6.042J
 
+# 🧩 Formal Proof: Infeasibility of the 8-Puzzle State Transition
+
+## 1. Mathematical Definitions
+
+* **State ($S$):** A specific configuration of the tiles $\{A, B, \dots, H\}$ and the empty square in the $3 \times 3$ grid.
+* **Inversion:** A pair of tiles $(L_i, L_j)$ is called an **inversion** if $L_i$ precedes $L_j$ in the alphabetical order, but $L_j$ appears before $L_i$ in the grid (when scanning row-by-row, left-to-right).
+* **Inversion Number ($N$):** The total count of inversions in a given state (the empty square is ignored in this count).
+* **Parity:** The property of an integer being even or odd ($N \pmod 2$).
+
+---
+
+## 2. The Invariant Principle
+
+**Claim:** The **parity** of the inversion number $N$ is an **invariant** under any legal move in the 8-puzzle.
+
+### 2.1 Case Analysis of Moves
+A legal move consists of sliding a tile into the empty square. This is equivalent to moving the empty square **Left, Right, Up, or Down**.
+
+#### **Case 1: Horizontal Moves (Left/Right)**
+When the empty square moves left or right, the relative order of the tiles in a row-major scan remains identical.
+$$\Delta N = 0$$
+The parity is unchanged.
+
+#### **Case 2: Vertical Moves (Up/Down)**
+When the empty square moves up or down, a tile (let's call it $T$) "jumps" over exactly two other tiles ($L_1$ and $L_2$).
+* If $T$ was in an inversion with both $L_1$ and $L_2$, $N$ decreases by 2.
+* If $T$ was in an inversion with neither, $N$ increases by 2.
+* If $T$ was in an inversion with only one of them, $N$ stays the same ($+1 -1 = 0$).
+
+In all sub-cases, the change in the inversion number is:
+$$\Delta N \in \{+2, -2, 0\}$$
+
+Since $\Delta N$ is always an **even number**, the parity of $N$ remains constant:
+$$N_{new} \equiv N_{old} \pmod 2$$
+
+
+
+---
+
+## 3. Proof by Contradiction
+
+To prove that a target state (e.g., swapping tiles G and H) is unreachable from the start state:
+
+1.  **Initial Parity:** Calculate $N_{start}$. Suppose $N_{start} \equiv 1 \pmod 2$ (Odd).
+2.  **Target Parity:** Calculate $M_{target}$ for the desired state. For a single swap of adjacent tiles like G and H, the parity will change, so $M_{target} \equiv 0 \pmod 2$ (Even).
+3.  **Contradiction:** Because the parity of the inversion number is an invariant, any state reachable from $S_{start}$ must have an **odd** inversion number. 
+4.  **Conclusion:** Since the target state has an **even** inversion number, it exists outside the reachable state space of the system.
+
+$$\therefore S_{target} \text{ is unreachable from } S_{start}. \quad \square$$
+
+---
+
+## 4. Key Takeaway for System Analysis
+In any state-machine system, identifying an **Invariant** allows one to define the boundaries of what is possible. If the "Genetic Code" (Parity) of your current state does not match the "Genetic Code" of your goal, no amount of computation or effort will bridge the gap.
 
 
 
