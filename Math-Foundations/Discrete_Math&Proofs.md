@@ -58,7 +58,34 @@
     * 总分 = $ab + \text{Score}(a) + \text{Score}(b)$。
     * 代入强归纳假设：$ab + \frac{a(a-1)}{2} + \frac{b(b-1)}{2}$。
     * 化简后完美符合 $\frac{(k+1)k}{2}$。
+### 🧱 Formal Proof: The Unstacking Game Invariant
 
+**Theorem:** For $n$ blocks, regardless of the splitting strategy, the total score is always $S_n = \frac{n(n-1)}{2}$.
+
+**Proof by Strong Induction:**
+
+1. **Base Case ($n=1$):**
+   A single block cannot be split. Total score is $0$.
+   Formula: $\frac{1(1-1)}{2} = 0$. (True)
+
+2. **Inductive Hypothesis:**
+   Assume that for all $1 \le k \le n$, the total score for unstacking $k$ blocks is $P(k) = \frac{k(k-1)}{2}$.
+
+3. **Inductive Step:**
+   Consider $n+1$ blocks. Suppose the first split divides the stack into two piles of size $a$ and $b$, where $a + b = n + 1$ and $a, b \ge 1$.
+   The total score $S_{n+1}$ is the sum of the current split score plus the scores of unstacking the two resulting piles:
+   $$S_{n+1} = (a \cdot b) + P(a) + P(b)$$
+   
+   Substituting the inductive hypothesis:
+   $$S_{n+1} = ab + \frac{a(a-1)}{2} + \frac{b(b-1)}{2}$$
+   $$S_{n+1} = \frac{2ab + a^2 - a + b^2 - b}{2}$$
+   $$S_{n+1} = \frac{(a+b)^2 - (a+b)}{2}$$
+   
+   Since $a+b = n+1$:
+   $$S_{n+1} = \frac{(n+1)^2 - (n+1)}{2} = \frac{(n+1)n}{2}$$
+
+**Conclusion:**
+The formula holds for $n+1$. By the principle of Strong Induction, the total score is an **invariant** based solely on the number of blocks. $\square$
 
 
 ---
