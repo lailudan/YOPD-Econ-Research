@@ -132,6 +132,14 @@ $$\therefore S_{target} \text{ is unreachable from } S_{start}. \quad \square$$
 ## 4. Key Takeaway for System Analysis
 In any state-machine system, identifying an **Invariant** allows one to define the boundaries of what is possible. If the "Genetic Code" (Parity) of your current state does not match the "Genetic Code" of your goal, no amount of computation or effort will bridge the gap.
 
+### 🧠 Case Study: Breaking the Invariant
+**Question:** Does adding an extra external slot make the 8-puzzle solvable?
+**Answer:** Yes.
+**Logic:**
+1. The standard $3 \times 3$ grid is a **Closed System** with a fixed parity invariant.
+2. An external slot transforms the system into an **Open System**.
+3. It allows for a **single swap (transposition)**, which changes the parity of the inversion number from $n$ to $n \pm 1$.
+4. **Key Takeaway:** If a logical problem is "unsolvable," look for a way to change the **Domain (Definition)** of the problem.
 
 
 ### 🗓 1/28 Discrete Math: The "Fake Statue" Breakthrough
