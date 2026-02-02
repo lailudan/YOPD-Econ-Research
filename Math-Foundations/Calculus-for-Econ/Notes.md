@@ -44,7 +44,14 @@
 * **❌ 错误示例**: 
     * $\sqrt{x'}$ （撇号不能加在运算符号内部）
 
-
+### 📐 Tangent Line Intuition (切线方程直觉)
+* **Goal**: Find the equation of the line touching function $h$ at $x = -4$.
+* **Components**:
+  1. **Coordinate**: From $h(-4)=7$, we get $(x, y) = (-4, 7)$.
+  2. **Slope ($m$)**: From $h'(-4)=1$, we get $m = 1$.
+* **The "Magic" Formula**: Point-Slope Form is faster than $y=ax+b$.
+  - Formula: $y - y_0 = m(x - x_0)$
+  - Applied: $y - 7 = 1(x + 4)$ -> **Option D**.
 
 
 # 🎓 Study Notes: The Big Picture of Derivatives
