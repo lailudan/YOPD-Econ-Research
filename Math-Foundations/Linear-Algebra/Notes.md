@@ -6,6 +6,15 @@
 - **Closure**: Add or scale vectors, stay inside the same "room".
 - **Analogy**: A floor or a support beam that passes through the origin.
 
+### ⚖️ Subspace Check: Is it a "Regular Army"?
+
+- **Set (集合)**: 只要是一堆点的组合就行（比如一个球体，或一个不过原点的面）。
+- **Subspace (子空间)**: 必须是 "Linear" 的！
+    - **Origin check**: 如果不经过 (0,0,0)，直接踢出子空间行列。
+    - **Closure check**: 成员相加、数乘后不能“出圈”。
+- **The "Span" Connection**: 
+    - 只要你有一组向量，它们所有的组合（Span）**自动**构成一个 Subspace。
+
 ### 🏗 2. Basis (基)
 - **Condition A**: Linearly Independent (No redundant pillars).
 - **Condition B**: Spans the space (Can reach every point).
