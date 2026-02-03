@@ -1,3 +1,24 @@
+# 🗓 Linear Algebra: Subspaces & Basis (Updated 2.3.2026)
+> **Focus**: The structural integrity of vector sets.
+
+### 🌌 1. Subspace (子空间)
+- **Constraint**: Must contain the Zero Vector $\vec{0}$.
+- **Closure**: Add or scale vectors, stay inside the same "room".
+- **Analogy**: A floor or a support beam that passes through the origin.
+
+### 🏗 2. Basis (基)
+- **Condition A**: Linearly Independent (No redundant pillars).
+- **Condition B**: Spans the space (Can reach every point).
+- **Dimension**: The count of vectors in the Basis. 
+
+### 🧠 PhD Insight
+- Detecting the **Basis** of a data set is how we reduce noise and find the "hidden drivers" of a system (e.g., in YOPD movement analysis).
+
+
+
+
+
+
 # 📐 核心定理：线性相关性 (Linear Dependence)(Updated 1.29.2026)
 **Category:** Foundation of Vector Spaces
 **Role in Research:** 用于识别数据冗余与模型维度崩溃
