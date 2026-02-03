@@ -54,7 +54,28 @@
 - **The "Basis" Promotion**:
     - 只有当 $S$ 既能 **Span** 整个空间，又 **Independent**（不冗余）时，它才晋升为 **Basis**。
 
+### 🏷️ Basis is a "Relative" Title (基是一个相对头衔)
 
+- **Example**: $S = \{ [1,0]^T, [0,1]^T \}$
+- **Verdict for $\mathbb{R}^2$**: It is a **Basis**. 
+    - Why? 数量够 (2个)，且独立。
+- **Verdict for $\mathbb{R}^3$**: It is **NOT** a Basis. 
+    - Why? 无法 Span 整个三维空间。
+- **TA Insight**: 
+    - 任何一组线性无关的向量，都是它们自己 **Span 出来的那个子空间** 的 Basis。
+    - 但要成为“整个空间”的 Basis，数量必须刚好等于维数。
+
+### 🔑 The Non-Uniqueness of Basis
+
+- **Fact**: 一个 Subspace 可以由无数种 Basis 来定义。
+- **The Core Rule**: 
+    - 只要这些向量能 **Span** 目标空间。
+    - 只要这些向量 **Independent**（没有冗余）。
+    - 它们就是一组合法的 Basis。
+- **Why change Basis?**
+    - 标准基（90度）计算最简单。
+    - 但在实际研究（如经济学）中，原始数据往往是“歪”的（相关性向量），我们必须学会在不同的 Basis 之间切换。
+  
 
 
 # 📐 核心定理：线性相关性 (Linear Dependence)(Updated 1.29.2026)
