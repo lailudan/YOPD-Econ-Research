@@ -11,8 +11,21 @@
 - **Condition B**: Spans the space (Can reach every point).
 - **Dimension**: The count of vectors in the Basis. 
 
-### 🧠 PhD Insight
-- Detecting the **Basis** of a data set is how we reduce noise and find the "hidden drivers" of a system (e.g., in YOPD movement analysis).
+## 📅 2/3 Lesson 4: 子空间与基 (Subspaces & Basis)
+
+### 1. Subspace Check (子空间的法律地位)
+- **Origin**: 必须含 $\vec{0}$ (原地待命)。
+- **Closure**: 内部成员相加、被系数缩放后，仍属于该集合。
+- **Key Examples**: 
+    - 整个 $\mathbb{R}^n$。
+    - 仅含 $\{\vec{0}\}$ 的点（零空间）。
+    - 过原点的直线 (Line) 或平面 (Plane)。
+
+### 2. Basis: The "Goldilocks" Set (不胖不瘦的精锐)
+- **Core Rules**:
+    1. **Independent**: 没有任何向量可以被其他成员“代表”。
+    2. **Span**: 足够覆盖整个子空间。
+- **Dimension (维度)**: 基底中向量的**个数**，就是这个子空间的维度。
 
 
 
