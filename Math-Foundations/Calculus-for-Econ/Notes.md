@@ -14,6 +14,7 @@ $0 < |x - c| < \delta \implies |f(x) - L| < \epsilon$
 - $\delta$ is the horizontal tolerance (Control in $x$).
 - If for EVERY $\epsilon$ there's a $\delta$, the limit exists.
 
+<img width="1924" height="1084" alt="7b3b61f2-115b-49f7-a9bc-ad8a01e5fdfd" src="https://github.com/user-attachments/assets/068be7f5-eb56-47fe-9a87-2df9fbde6414" />
 
 
 
