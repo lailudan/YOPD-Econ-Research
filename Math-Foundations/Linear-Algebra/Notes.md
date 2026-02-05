@@ -27,6 +27,16 @@
 - **Expression**: $\|\vec{a} + \vec{b}\| \leq \|\vec{a}\| + \|\vec{b}\|$
 - **Intuition**: The shortest path between two points is a straight line.
 
+### 平面表示法
+* **点法式方程**: 已知平面上一点 $P_0$ 和法向量 $\vec{n} = [a, b, c]$，平面上任意点 $P(x, y, z)$ 满足：
+  $$\vec{n} \cdot (\vec{P} - \vec{P_0}) = 0 \implies ax + by + cz = d$$
+* **法向量提取**: 从方程 $ax + by + cz = d$ 中可直接读出法向量 $\vec{n} = [a, b, c]$。
+
+### 距离计算 (Distance)
+* **点到平面的距离**: 
+  利用向量投影。点 $S$ 到平面的距离等于向量 $\vec{P_0S}$ 在法向量 $\vec{n}$ 上的投影长度：
+  $$D = \frac{|\vec{n} \cdot \vec{P_0S}|}{\|\vec{n}\|}$$
+
 ### 🧠 Ludan's Reflection
 - Video units are for "Understanding the DNA," while practice units are for "Building the Muscle." 
 - I need to hold these geometric images in my head before I go back to the matrices of Unit 4.
