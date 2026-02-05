@@ -15,6 +15,18 @@
 - Since this unit is video-only, focus on the **Visual Logic**. 
 - Ask: "How does a single normal vector define an entire subspace (plane)?"
 
+### Intuition: Dot vs. Cross Product
+- **Dot Product ($\vec{a} \cdot \vec{b}$)**: 
+  - "The Shadow Maker." 
+  - Measures how much of $\vec{a}$ points in the direction of $\vec{b}$.
+  - Result: A single value (Scalar).
+  
+- **Cross Product ($\vec{a} \times \vec{b}$)**: 
+  - "The Surface Builder." 
+  - Size = Area of the floor. 
+  - Direction = A "Normal Vector" sticking straight up from the floor.
+  - Result: A new vector in 3D.
+
 
 # Linear Algebra: The Master Inequalities
 
