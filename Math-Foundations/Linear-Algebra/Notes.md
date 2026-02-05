@@ -27,6 +27,53 @@
 - **Expression**: $\|\vec{a} + \vec{b}\| \leq \|\vec{a}\| + \|\vec{b}\|$
 - **Intuition**: The shortest path between two points is a straight line.
 
+### 距离计算 (Distance)
+* **点到平面的距离**: 
+  利用向量投影。点 $S$ 到平面的距离等于向量 $\vec{P_0S}$ 在法向量 $\vec{n}$ 上的投影长度：
+  $$D = \frac{|\vec{n} \cdot \vec{P_0S}|}{\|\vec{n}\|}$$
+
+### 🧠 Ludan's Reflection
+- Video units are for "Understanding the DNA," while practice units are for "Building the Muscle." 
+- I need to hold these geometric images in my head before I go back to the matrices of Unit 4.
+
+# 线性代数笔记：向量点积与叉积 (Vector Dot and Cross Products)
+> 来源：Khan Academy - Linear Algebra
+
+## 1. 点积与度量 (Dot Product & Norms)
+
+### 核心概念
+* **点积定义**: 对于向量 $\vec{a}, \vec{b} \in \mathbb{R}^n$，点积为 $\vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2 + \dots + a_nb_n$。
+* **向量长度 (L2 Norm)**: $\|\vec{v}\| = \sqrt{\vec{v} \cdot \vec{v}}$。
+
+### 关键不等式
+* **柯西-阿诺德不等式 (Cauchy-Schwarz Inequality)**: 
+  $$|\vec{a} \cdot \vec{b}| \leq \|\vec{a}\| \|\vec{b}\|$$
+  *证明意义*: 保证了 $\frac{\vec{a} \cdot \vec{b}}{\|\vec{a}\| \|\vec{b}\|}$ 的值在 $[-1, 1]$ 之间，从而能够定义余弦夹角。
+* **三角不等式 (Triangle Inequality)**: 
+  $$\|\vec{a} + \vec{b}\| \leq \|\vec{a}\| + \|\vec{b}\|$$
+
+### 几何应用
+* **夹角公式**: $\cos \theta = \frac{\vec{a} \cdot \vec{b}}{\|\vec{a}\| \|\vec{b}\|}$
+  * 当 $\vec{a} \cdot \vec{b} = 0$ 时，两向量**正交 (Orthogonal)**。
+
+---
+
+## 2. 叉积 (Cross Product)
+
+### 核心概念
+* **定义**: 仅适用于 $\mathbb{R}^3$。结果是一个同时垂直于 $\vec{a}$ 和 $\vec{b}$ 的向量。
+* **计算**: 利用行列式展开法。
+* **几何意义**: 
+  * 方向遵循**右手定则**。
+  * 模长 $\|\vec{a} \times \vec{b}\| = \|\vec{a}\| \|\vec{b}\| \sin \theta$，代表以两向量为邻边的**平行四边形面积**。
+
+### 进阶公式
+* **向量三重复积 (Vector Triple Product)**: $\vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b})$ (BAC-CAB法则)。
+
+---
+
+## 3. 三维空间中的平面几何 (Planes in R3)
+
 ### 平面表示法
 * **点法式方程**: 已知平面上一点 $P_0$ 和法向量 $\vec{n} = [a, b, c]$，平面上任意点 $P(x, y, z)$ 满足：
   $$\vec{n} \cdot (\vec{P} - \vec{P_0}) = 0 \implies ax + by + cz = d$$
@@ -37,10 +84,12 @@
   利用向量投影。点 $S$ 到平面的距离等于向量 $\vec{P_0S}$ 在法向量 $\vec{n}$ 上的投影长度：
   $$D = \frac{|\vec{n} \cdot \vec{P_0S}|}{\|\vec{n}\|}$$
 
-### 🧠 Ludan's Reflection
-- Video units are for "Understanding the DNA," while practice units are for "Building the Muscle." 
-- I need to hold these geometric images in my head before I go back to the matrices of Unit 4.
+---
 
+## 4. 学习直觉总结
+* **点积 (Dot)**: 衡量“相似度”或“投影”，结果是标量。
+* **叉积 (Cross)**: 衡量“垂直度”或“面积”，结果是向量。
+* **法向量 (Normal)**: 是描述平面的“灵魂”，决定了平面的朝向。
 
 
 
