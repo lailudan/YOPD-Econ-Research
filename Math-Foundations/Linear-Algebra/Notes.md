@@ -1,3 +1,27 @@
+
+
+### 🗓 Matrix Multiplication as a Path Finding (Updated 2.6.2026)
+- **Equation**: $x_1 \vec{v}_1 + x_2 \vec{v}_2 = \vec{b}$
+- **The "Walk" (Column Picture)**:
+  1. Start at $(0,0)$.
+  2. Walk $x_1$ units in direction $\vec{v}_1$.
+  3. From that spot, walk $x_2$ units in direction $\vec{v}_2$.
+  4. The goal is to land exactly on vector $\vec{b}$.
+  
+- **Reflection**: 
+  Solving an equation $Ax=b$ is just finding the right "Step Counts" ($x_1, x_2$) for each direction in $A$ to reach target $b$.
+
+
+
+
+
+
+
+
+
+
+
+
 # 🗓Linear Algebra: Geometry of Vectors (Updated 2.5.2026)
 > **Focus**: Dot Products, Cross Products & Planes.
 
