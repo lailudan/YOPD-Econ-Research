@@ -9,7 +9,7 @@
   4. The goal is to land exactly on vector $\vec{b}$.
   
 - **Reflection**: 
-  Solving an equation $Ax=b$ is just finding the right "Step Counts" ($x_1, x_2$) for each direction in $A$ to reach target $b$.
+  Solving an equation $Ax=b$ is just finding the right "Step Counts" ($x_1, x_2$) for each direction in $A$ to reach the target $b$.
 
 ## 1: 线性方程组的几何直观
 
@@ -27,7 +27,17 @@ $$Ax = x_1\vec{a_1} + x_2\vec{a_2} + \dots + x_n\vec{a_n}$$
 * **直观理解**：当列向量之间出现“冗余”（例如第三列只是前两列的加号结果），它们会“塌陷”在更低维度的空间里（如 3 个向量只形成一个面）。
 * **后果**：无法到达该维度空间的所有点，导致对某些 $b$ 无解。
 
+### 💡 深度感悟：视角大转换 (Row vs. Column)
 
+| 特性 | Row Picture (行) | Column Picture (列) |
+| :--- | :--- | :--- |
+| **数学对象** | 方程 (Equations) | 向量 (Vectors) |
+| **几何形态** | 平面 (Planes) | 箭头 (Arrows) |
+| **求解本质** | 寻找**交点** (Intersection) | 寻找**线性组合** (Combination) |
+| **Strang 名言** | "I'm looking for a point that lies on all these planes." | "Can I combine these vectors to get vector b?" |
+
+**为什么列视角更神奇？**
+因为它把复杂的几何交点问题，变成了像“搭积木”一样的向量加法。只要列向量不是在同一个平面内“塌陷”（即矩阵非奇异），我们就能组合出空间里的任何位置。
 
 
 
