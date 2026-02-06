@@ -1,6 +1,6 @@
 
-
-### 🗓 Matrix Multiplication as a Path Finding (Updated 2.6.2026)
+## MIT 18.06 Lecture 1: 线性方程组的几何直观 (Updated 2.6.2026)
+### 🗓 Matrix Multiplication as a Path Finding 
 - **Equation**: $x_1 \vec{v}_1 + x_2 \vec{v}_2 = \vec{b}$
 - **The "Walk" (Column Picture)**:
   1. Start at $(0,0)$.
@@ -11,7 +11,21 @@
 - **Reflection**: 
   Solving an equation $Ax=b$ is just finding the right "Step Counts" ($x_1, x_2$) for each direction in $A$ to reach target $b$.
 
+## 1: 线性方程组的几何直观
 
+### 💡 关键转变：从“交点”到“组合”
+* **Row Picture**: 寻找直线/平面的交点（关注方程本身）。
+* **Column Picture**: 寻找列向量的线性组合（关注 $Ax$ 的本质）。
+  > "Ax is a linear combination of the columns of A." —— Gilbert Strang
+
+### 🛠 矩阵乘向量 (Matrix-Vector Multiplication)
+通常我们计算 $Ax$ 是用行点乘列，但更深刻的理解是：
+$$Ax = x_1\vec{a_1} + x_2\vec{a_2} + \dots + x_n\vec{a_n}$$
+这里的 $\vec{a_i}$ 是矩阵的列向量。
+
+### ⚠️ 奇异矩阵 (Singular Matrix)
+* **直观理解**：当列向量之间出现“冗余”（例如第三列只是前两列的加号结果），它们会“塌陷”在更低维度的空间里（如 3 个向量只形成一个面）。
+* **后果**：无法到达该维度空间的所有点，导致对某些 $b$ 无解。
 
 
 
